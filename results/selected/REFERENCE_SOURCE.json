@@ -1,0 +1,15 @@
+{
+  "original_checkpoint_sha256": "03a0a2e319623f6d4e3b359e09f04de47f9fbb9e1108f163f3538bfa6e86ed3e",
+  "original_result_sha256": "7ce7fbe4fffaa77a7aa271d5b4c8e1868a979fdaaf626dcffa1a3e2487b86fb9",
+  "original_npz_sha256": "7443937ca5bedcecc7a378630cdb5a21a3f6699207c5003577715c75ca5e45a9",
+  "original_hashes_sha256": "5f025b76a12d8359542904593b2af7089767eea78484d3dbdc34182df1b33a74",
+  "original_rng_archive_sha256": "75ec6600a7126d77be29e66c3f0e18d67a49d52ecce7a366fa12bafd90258d5a",
+  "numerical_arrays_unchanged": true,
+  "model_id_renamed_only": true,
+  "reference_is_original_experiment": true,
+  "publication_code_gpu_replay_executed": false,
+  "publication_checkpoint_sha256": "9c3764cb4e5993f441c6053b984b4e84e37f39b853afcbd050f7dfed39c44ac9",
+  "publication_rng_archive_sha256": "3cc81c045f0cfe2932d3971c03b163bc01807b7e0a69fe5da843ef117b9db167",
+  "source_tensors_and_rng_states_unchanged": true,
+  "historical_worker_receipts_refer_to_original_archive": true
+}

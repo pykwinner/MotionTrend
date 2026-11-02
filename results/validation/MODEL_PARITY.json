@@ -1,0 +1,16 @@
+{
+  "fresh_keys_exact": true,
+  "fresh_differences": [],
+  "rng_exact": true,
+  "torch": "2.5.1+cpu",
+  "native_accuracy_test": false,
+  "checkpoint_epoch": 30,
+  "parameters": 408682,
+  "inference_logits_byte_exact": true,
+  "max_error": 0.0,
+  "trace_parent_tokens_exact": true,
+  "trace_srr_bound_exact": true,
+  "gradient_differences": [],
+  "parent_phase_gradient_differences": [],
+  "passed": true
+}

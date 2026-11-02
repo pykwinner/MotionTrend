@@ -1,0 +1,5 @@
+name,label,prediction,correct,windows
+a04_s06_e01_sdepth.npz,3,6,False,7
+a04_s06_e02_sdepth.npz,3,6,False,29
+a06_s09_e03_sdepth.npz,5,3,False,14
+a15_s06_e03_sdepth.npz,14,18,False,17
