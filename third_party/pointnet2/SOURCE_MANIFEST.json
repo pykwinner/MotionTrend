@@ -1,0 +1,24 @@
+{
+  "upstream": "https://github.com/hehefan/PST-Transformer",
+  "source": "modules/_ext_src",
+  "source_files_changed": false,
+  "source_files_sha256": {
+    "_ext_src/include/ball_query.h": "0471321f53fffd783eb485543c63855944be2eccd4647e8d0a8cdd1b92eb7610",
+    "_ext_src/include/cuda_utils.h": "57c50d6d4cb73e46f83d19ea14807073051072669b59ed97d114a9e29af5532a",
+    "_ext_src/include/group_points.h": "a0484f9512e2192c1448fc8bc6ef551dd2603be4e68fede163661d0e8f6a6204",
+    "_ext_src/include/interpolate.h": "cf5b7e9d6eab01efc62a70f0f18f53d3ce13a28f384583f3b790ccfe293a0ad7",
+    "_ext_src/include/sampling.h": "0b4b5deff23735f5976bc738106fbd025a382eda64e110d6aaaba46f0ccc98d8",
+    "_ext_src/include/utils.h": "57fd2d739f1e3e9030732fff4ba58aa6a0fafaf7d160fd5ffac5c358729df7e4",
+    "_ext_src/src/ball_query.cpp": "a9318c1160eebd3db834481def938ee757d9c178597c50c82dc95f944cff1125",
+    "_ext_src/src/ball_query_gpu.cu": "fe9c25682c20c1b8b49a934bf1f6a7aa5e96543bf70fc6f91fb51b3b9ac2efbc",
+    "_ext_src/src/bindings.cpp": "0f63ad6b6c0c26c1070437e2307313653de2316e537f06c536d49bfe641be39a",
+    "_ext_src/src/group_points.cpp": "802bf2717094d7a381a426aec3fcf0722c7f4f1592f9d32e67d8f32fe1b76961",
+    "_ext_src/src/group_points_gpu.cu": "eeb6172b7b9fe3bd74ae78c18bda14c56558f6cf0b36ba2ab8ece65b10165333",
+    "_ext_src/src/interpolate.cpp": "fcbf7e5e68fa04dbf232e21757b87133c1e99a9e8b5d5155ad5bd3158836deb4",
+    "_ext_src/src/interpolate_gpu.cu": "f79234241609430e1a352c1ddf7c6eebbcaf241a3205fb3bae580b30a9bac625",
+    "_ext_src/src/sampling.cpp": "eca9be390a495b20442a7cf7a1af0bbbbb3995933f2c95abb748bc1e1e5879e4",
+    "_ext_src/src/sampling_gpu.cu": "1be6b19ebc60403809c4e7907c53e8da6d2cbb3ad129af4f09b4c7e54791ff28"
+  },
+  "recorded_extension_sha256": "5bb19112c3ca6e90e06a3eba8fa716692edef3a70cfa20a69688cf9289e30aff",
+  "setup_changes": "Portable project root, package discovery, and setuptools metadata only; no kernel changes."
+}

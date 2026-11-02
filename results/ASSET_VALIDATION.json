@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "scope": "CPU probability and metadata audit",
+  "windows": 5356,
+  "video_rows": 287,
+  "correct": 283,
+  "window_bytes_verified": true,
+  "fp32_video_sums_verified": true,
+  "output_sha256": "730bf5bcdce5375f079243f475994f2016cc84ba177cf1a8bb04ec77a26bbac9",
+  "sums_sha256": "a1d39d89315a3fb96a4c6349c8df902fd7ab56d49dfef8d8f5107926eb30f790",
+  "model_gpu_replay_executed": false,
+  "checkpoint_tensors_byte_exact": 132,
+  "initialization_tensors_byte_exact": 125,
+  "rng_states_unchanged": true,
+  "private_strings_removed": true,
+  "checkpoint_sha256": "9c3764cb4e5993f441c6053b984b4e84e37f39b853afcbd050f7dfed39c44ac9",
+  "initialization_sha256": "6febe65dfd2bb23c04035af5e2b56f3385865cbd3844dbafe689be4e0e9cf056",
+  "rng_sha256": "3cc81c045f0cfe2932d3971c03b163bc01807b7e0a69fe5da843ef117b9db167"
+}

@@ -1,0 +1,221 @@
+{
+  "model_name": "MoTrend",
+  "dataset": "MSR-Action3D",
+  "best_correct": 283,
+  "total": 287,
+  "best_accuracy_percent": 98.60627177700349,
+  "best_epoch": 30,
+  "final_epoch": 49,
+  "final_correct": 282,
+  "final_accuracy_percent": 98.25783972125436,
+  "parameters": 408682,
+  "parent_parameters": 399562,
+  "srr_parameters": 9120,
+  "state_tensors": 132,
+  "seed": 0,
+  "parent_epochs": 30,
+  "srr_epochs": 20,
+  "training_alpha": 1.0,
+  "evaluation_alpha": 0.5,
+  "local_frames": 24,
+  "global_frames": 32,
+  "single_model": true,
+  "ensemble": false,
+  "joint_training": false,
+  "selection_scope": "Both parent and full-model checkpoints are selected using this evaluation set. This is not independent held-out selection.",
+  "fixed_local_seed": 54,
+  "fixed_context_seed": 14,
+  "fixed_input_sha256": "976c42e36dac5074468044f087cb13a46032035f49834b323e4cdb7e90f56d56",
+  "window_output_sha256": "730bf5bcdce5375f079243f475994f2016cc84ba177cf1a8bb04ec77a26bbac9",
+  "original_checkpoint_sha256": "03a0a2e319623f6d4e3b359e09f04de47f9fbb9e1108f163f3538bfa6e86ed3e",
+  "parent_correct": 283,
+  "paired_vs_parent": {
+    "total": 287,
+    "parent_correct": 283,
+    "candidate_correct": 283,
+    "repaired": 0,
+    "harmed": 0,
+    "net": 0,
+    "repaired_cases": [],
+    "harmed_cases": [],
+    "per_class": {
+      "A01": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A02": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A03": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A04": {
+        "total": 15,
+        "parent_correct": 13,
+        "candidate_correct": 13,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A05": {
+        "total": 12,
+        "parent_correct": 12,
+        "candidate_correct": 12,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A06": {
+        "total": 14,
+        "parent_correct": 13,
+        "candidate_correct": 13,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A07": {
+        "total": 13,
+        "parent_correct": 13,
+        "candidate_correct": 13,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A08": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A09": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A10": {
+        "total": 13,
+        "parent_correct": 13,
+        "candidate_correct": 13,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A11": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A12": {
+        "total": 14,
+        "parent_correct": 14,
+        "candidate_correct": 14,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A13": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A14": {
+        "total": 12,
+        "parent_correct": 12,
+        "candidate_correct": 12,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A15": {
+        "total": 14,
+        "parent_correct": 13,
+        "candidate_correct": 13,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A16": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A17": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A18": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A19": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A20": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      }
+    },
+    "focus_classes": {
+      "A03": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A04": {
+        "total": 15,
+        "parent_correct": 13,
+        "candidate_correct": 13,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A06": {
+        "total": 14,
+        "parent_correct": 13,
+        "candidate_correct": 13,
+        "repaired": 0,
+        "harmed": 0
+      },
+      "A20": {
+        "total": 15,
+        "parent_correct": 15,
+        "candidate_correct": 15,
+        "repaired": 0,
+        "harmed": 0
+      }
+    },
+    "scope": "Read-only evaluation analysis relative to this run selected frozen parent; no TEST IDs/labels influence training or policy"
+  },
+  "current_publication_code_gpu_replay_executed": true,
+  "checkpoint_sha256": "9c3764cb4e5993f441c6053b984b4e84e37f39b853afcbd050f7dfed39c44ac9",
+  "initialization_sha256": "6febe65dfd2bb23c04035af5e2b56f3385865cbd3844dbafe689be4e0e9cf056",
+  "rng_sha256": "3cc81c045f0cfe2932d3971c03b163bc01807b7e0a69fe5da843ef117b9db167",
+  "publication_native_validation": "results/validation/native_4090/VALIDATION.json",
+  "publication_validated_commit": "516f898005538956fc0e97260468fe2c7ac79bdc"
+}

@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.pth binary
+*.npz binary
+*.so binary
+*.png binary
+*.pdf binary
+# Preserve the audited upstream source bytes, including original line endings.
+third_party/pointnet2/_ext_src/** -text -whitespace
+# Native validation receipts retain their original audited serialization.
+results/validation/native_4090/** -text -whitespace

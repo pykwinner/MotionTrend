@@ -1,0 +1,32 @@
+{
+  "model_name": "MoTrend",
+  "alpha": 0.5,
+  "checkpoint_epoch": 30,
+  "epoch_index_base": 0,
+  "expected_correct": 283,
+  "total": 287,
+  "clips": 5356,
+  "input_sha256": "976c42e36dac5074468044f087cb13a46032035f49834b323e4cdb7e90f56d56",
+  "output_sha256": "730bf5bcdce5375f079243f475994f2016cc84ba177cf1a8bb04ec77a26bbac9",
+  "training_alpha": 1.0,
+  "training_rho": 0.02,
+  "parameters": 408682,
+  "state_tensors": 132,
+  "checkpoint_selection": "Earliest highest fixed-287 full-model epoch among 30..49",
+  "parent_selection": "Earliest highest fixed-287 parent checkpoint after 30 completed epochs",
+  "selection_scope": "Both parent and full-model checkpoints are selected using this evaluation set. This is not independent held-out selection.",
+  "training_curve_best_correct": 283,
+  "final_epoch_correct": 282,
+  "single_model": true,
+  "ensemble": false,
+  "module_names": {
+    "EBTE": "Energy-Bounded Trend Encoding",
+    "CTR": "Context and Trend Retrieval",
+    "SRR": "Spatial Relation Refinement"
+  },
+  "original_checkpoint_sha256": "03a0a2e319623f6d4e3b359e09f04de47f9fbb9e1108f163f3538bfa6e86ed3e",
+  "checkpoint_sha256": "9c3764cb4e5993f441c6053b984b4e84e37f39b853afcbd050f7dfed39c44ac9",
+  "initialization_sha256": "6febe65dfd2bb23c04035af5e2b56f3385865cbd3844dbafe689be4e0e9cf056",
+  "rng_sha256": "3cc81c045f0cfe2932d3971c03b163bc01807b7e0a69fe5da843ef117b9db167",
+  "rng_archive_sha256": "3cc81c045f0cfe2932d3971c03b163bc01807b7e0a69fe5da843ef117b9db167"
+}

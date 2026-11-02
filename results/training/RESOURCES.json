@@ -1,0 +1,43 @@
+{
+  "train50_RESOURCES.json": {
+    "resources_complete": true,
+    "wall_seconds": 2826.5587230697274,
+    "gpu_valid_samples": 2824,
+    "gpu_sample_errors": 0,
+    "attempts": [
+      {
+        "wall_seconds": 2826.5587230697274,
+        "gpu_valid_samples": 2824,
+        "gpu_sample_errors": 0,
+        "peak_cgroup_ram_bytes": 11911397376,
+        "selected_gpu_index": 0,
+        "resources_complete": true,
+        "exclusive_gpu_monitor_passed": true,
+        "foreign_gpu_pids": [],
+        "ownership_verified": true,
+        "unknown_gpu_pids": [],
+        "scope": "Owned process wall time; selected physical GPU0 whole-device telemetry, including TRAIN/DEV/fixed evaluation and IO; not pure forward latency",
+        "mean_gpu_utilization_percent": 29.4550283286119,
+        "peak_gpu_used_mib": 4059.0,
+        "gpu_total_mib": 24564.0,
+        "mean_gpu_power_watts": 110.50814093484465,
+        "peak_gpu_power_watts": 162.35,
+        "peak_gpu_temperature_celsius": 47.0,
+        "attempt": "train50",
+        "exit_code": 0,
+        "timed_out": false,
+        "receipt_sha256": "9cbe5a844b67496020b9b8b64ca97fe5084c59a24d93f7f85a2aea32da3f30bb",
+        "gpu_samples_sha256": "eacee33de88cbc8761688b389dcdc93e00693c6dd3f67dcba645f5daa0761a94"
+      }
+    ],
+    "selected_gpu_index": 0,
+    "includes_failed_and_resumed_attempts": true,
+    "accuracy_epochs_are_not_resource_attempts": true,
+    "reason": null,
+    "mean_gpu_utilization_percent": 29.4550283286119,
+    "peak_gpu_used_mib": 4059.0,
+    "mean_gpu_power_watts": 110.50814093484465,
+    "peak_gpu_power_watts": 162.35,
+    "peak_gpu_temperature_celsius": 47.0
+  }
+}

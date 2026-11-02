@@ -1,0 +1,178 @@
+{
+  "archive_sha256": "3cc81c045f0cfe2932d3971c03b163bc01807b7e0a69fe5da843ef117b9db167",
+  "schema": "msr-sampling-pre-eval-state-v1",
+  "evaluation_seed": 54,
+  "context_seed": 14,
+  "meaning": "Actual states after this evaluation seed reset, immediately before DataLoader iterator construction; not old training checkpoint RNG.",
+  "cuda_included": true,
+  "global_state_hashes": {
+    "combined_sha256": "5166f1c094cf41a900d767f3b44dc5dab19094925bdd2597c30382b2a4820817",
+    "python_state_sha256": "636af5f48cb7b834793a8ed9f1db56fad2ed750067470471ae90f4be79cfc3b8",
+    "numpy_state_sha256": "e100bc0df5a03e1b9796b0899c432185a30911be915838730485a81b4d95783b",
+    "torch_cpu_state_sha256": "13ec185f121e8faaba92dd9363ee252c3a21a2bad91cd51d5be1f09cdac050ec",
+    "torch_cuda_state_sha256": [
+      "4d34c3ef512b493a4ca7543e1360c711096c8828ea7798c6c9be9dc5f100d62d"
+    ]
+  },
+  "loader_generator_initial_state_sha256": "13ec185f121e8faaba92dd9363ee252c3a21a2bad91cd51d5be1f09cdac050ec",
+  "loader_generator_after_base_seed_state_sha256": "5f61f694ec5193e546e1ac151371f93858690185fb06cf361884f857e5d2a175",
+  "dataloader_base_seed": 7751007697581219141,
+  "workers": [
+    {
+      "worker_id": 0,
+      "python_and_torch_seed": 7751007697581219141,
+      "numpy_seed_words_uint32": [
+        945158035,
+        3116525001,
+        3057841177,
+        474212773
+      ],
+      "torch_cpu_initial_state_sha256": "6ef3a6f0c04b31b8d9dd418af9fdeeaeb6cbdfb986d6749bcbcc7b7b16cab43c",
+      "python_initial_state_sha256": "03ce2505bde9151b5265cd978e79379626cd260516ff7b67b8fd879924281ec0",
+      "numpy_initial_state_sha256": "3e6de615d2280790f8bb38bdd02d948fa108c4a89667d84e4e7153e2ccdd9f96"
+    },
+    {
+      "worker_id": 1,
+      "python_and_torch_seed": 7751007697581219142,
+      "numpy_seed_words_uint32": [
+        4148911557,
+        158075004,
+        1887790441,
+        3119891459
+      ],
+      "torch_cpu_initial_state_sha256": "f6014c0deec985fd4dc29b6c8e05f081130e391fbc05aa5222f6ff27d06a0b32",
+      "python_initial_state_sha256": "1226aaaff5d566d7bbf033bd0d63920373112b1ac1b139eb0610ec2288db2777",
+      "numpy_initial_state_sha256": "ded10c895b68c8c5c5646be1b8baecf10b4122543e9847f60c00d2e074e171ee"
+    },
+    {
+      "worker_id": 2,
+      "python_and_torch_seed": 7751007697581219143,
+      "numpy_seed_words_uint32": [
+        2588374866,
+        1914559900,
+        3826103489,
+        3570000314
+      ],
+      "torch_cpu_initial_state_sha256": "9e67f14cfffe7782ada193cc53527acebc2a4230a5990ed6642f1fc5f50e69af",
+      "python_initial_state_sha256": "0887fb68f59829ceef0f1fc378ff695d2f19be97a0d2a2317b3ca1bff6c169ed",
+      "numpy_initial_state_sha256": "fe2d249604e4eb11d11a73247a3d3e61e69976421c08e71597ab7be83bc4cc46"
+    },
+    {
+      "worker_id": 3,
+      "python_and_torch_seed": 7751007697581219144,
+      "numpy_seed_words_uint32": [
+        313367620,
+        1771159635,
+        4011726792,
+        1614639891
+      ],
+      "torch_cpu_initial_state_sha256": "a6c0462d502b2f3521a76dddc3c0c4f3ffc114f1d07d72931676b36ada0067ae",
+      "python_initial_state_sha256": "d818f10e54e3bf157edf0f67d0748c1146b901e3d8c54eb0af42a30f0e56aa9f",
+      "numpy_initial_state_sha256": "c92909eb75fe2767fb5db2712cd628e976fca259fee908925719a3a9408c9e6a"
+    },
+    {
+      "worker_id": 4,
+      "python_and_torch_seed": 7751007697581219145,
+      "numpy_seed_words_uint32": [
+        3254311397,
+        1343182573,
+        3317741764,
+        2266292143
+      ],
+      "torch_cpu_initial_state_sha256": "93ee46a0e5f50d9c02ad742c12a255b20bb6e738f0caa58b957bad2778f390aa",
+      "python_initial_state_sha256": "3dab8de5a8d530f7171c8f9677bbd8141e5b75a94ca60f53df4ed42750dc6f4d",
+      "numpy_initial_state_sha256": "4ba52d5f267e58b69f37a493838c85938ae9d5626951fc6997d45cff636e0fda"
+    },
+    {
+      "worker_id": 5,
+      "python_and_torch_seed": 7751007697581219146,
+      "numpy_seed_words_uint32": [
+        1175523670,
+        3964063772,
+        3319832586,
+        2076790886
+      ],
+      "torch_cpu_initial_state_sha256": "909b1e29941f6fa23c6defcbaa672053d67de9274bf3aa15c18a57b040ba8c20",
+      "python_initial_state_sha256": "479e1d66de4bab8e13dc861c84ebad52ec69c8f9decaad53518544a1043b14f4",
+      "numpy_initial_state_sha256": "72a9fde9c7bf87818f760d76e0207356f64162444d1f4b65e1aa1ed672a36cdb"
+    },
+    {
+      "worker_id": 6,
+      "python_and_torch_seed": 7751007697581219147,
+      "numpy_seed_words_uint32": [
+        2136313235,
+        3498204980,
+        3948939011,
+        3524279341
+      ],
+      "torch_cpu_initial_state_sha256": "7e331f1504c53a5ef52700a3f5aae1e765200240700bcd2761f41f2998172cf4",
+      "python_initial_state_sha256": "0a5faeb108bbdbf029f8b4970b41d4fdb978d1352f6b4ae3e1a898d354737446",
+      "numpy_initial_state_sha256": "eba7cfb6c54694e6027dc7b7c99155ce61f3b20015c5ccb830655a46bb49d380"
+    },
+    {
+      "worker_id": 7,
+      "python_and_torch_seed": 7751007697581219148,
+      "numpy_seed_words_uint32": [
+        87745088,
+        509718863,
+        4257235957,
+        3097039349
+      ],
+      "torch_cpu_initial_state_sha256": "9f7d2c05a2219b3af9ee499f5ac2f8731d22b6281ce9a54cb2da4dc406fd9406",
+      "python_initial_state_sha256": "cf164b0dafa4cce1a93685ed9f50a70cace24d066f47a9aa0c1ee5d1279c1ddb",
+      "numpy_initial_state_sha256": "53e2de7924e88d38ad5827b2894017c9e6659cf30ac7efe07b5b0f8f853659d2"
+    },
+    {
+      "worker_id": 8,
+      "python_and_torch_seed": 7751007697581219149,
+      "numpy_seed_words_uint32": [
+        2338901539,
+        714053234,
+        2958701866,
+        143974988
+      ],
+      "torch_cpu_initial_state_sha256": "eb71abb7cf0b2f52cb4dffa1613d296ef40e06ab07fc7469d3d8dba00c9a2972",
+      "python_initial_state_sha256": "54f12eb1bee03946f37d792e005281f3bfb37e385fef2858a1c12f59a3a885da",
+      "numpy_initial_state_sha256": "3f1c1c57470b80c7a23eb67d2b37ef1e6b06a4c5eca044db1718204f41ddcd44"
+    },
+    {
+      "worker_id": 9,
+      "python_and_torch_seed": 7751007697581219150,
+      "numpy_seed_words_uint32": [
+        1855441606,
+        868212002,
+        2502198114,
+        333884301
+      ],
+      "torch_cpu_initial_state_sha256": "aa7a148b9614daf94993b94863ec20c68c54ae489de4f34f65962af837c3fbf9",
+      "python_initial_state_sha256": "d44966ec9f68d1cf74f9dbda2b97c31c32978be7ab70a8612b3c6780f69ca532",
+      "numpy_initial_state_sha256": "868856d48ddfb6b7a650d719e65c42d357cccb8d481912542d77a8abf049ed3c"
+    }
+  ],
+  "recipe": {
+    "torch_version": "2.1.2+cu118",
+    "torch_cuda_version": "11.8",
+    "numpy_version": "1.26.4",
+    "python_version": "3.10.8",
+    "multiprocessing_start_method": "fork",
+    "batch_size": 14,
+    "num_workers": 10,
+    "shuffle": false,
+    "drop_last": false,
+    "pin_memory": true,
+    "persistent_workers": false,
+    "prefetch_factor": 2,
+    "worker_seed_formula": "base_seed + worker_id",
+    "numpy_seed_function": "torch.utils.data._utils.worker._generate_state",
+    "numpy_seed_function_source": "def _generate_state(base_seed, worker_id):\n    INIT_A = 0x43b0d7e5\n    MULT_A = 0x931e8875\n    INIT_B = 0x8b51f9dd\n    MULT_B = 0x58f38ded\n    MIX_MULT_L = 0xca01f9dd\n    MIX_MULT_R = 0x4973f715\n    XSHIFT = 4 * 8 // 2\n    MASK32 = 0xFFFFFFFF\n\n    entropy = [worker_id, base_seed & MASK32, base_seed >> 32, 0]\n    pool = [0] * 4\n\n    hash_const_A = INIT_A\n\n    def hash(value):\n        nonlocal hash_const_A\n        value = (value ^ hash_const_A) & MASK32\n        hash_const_A = (hash_const_A * MULT_A) & MASK32\n        value = (value * hash_const_A) & MASK32\n        value = (value ^ (value >> XSHIFT)) & MASK32\n        return value\n\n    def mix(x, y):\n        result_x = (MIX_MULT_L * x) & MASK32\n        result_y = (MIX_MULT_R * y) & MASK32\n        result = (result_x - result_y) & MASK32\n        result = (result ^ (result >> XSHIFT)) & MASK32\n        return result\n\n    # Add in the entropy to the pool.\n    for i in range(len(pool)):\n        pool[i] = hash(entropy[i])\n\n    # Mix all bits together so late bits can affect earlier bits.\n    for i_src in range(len(pool)):\n        for i_dst in range(len(pool)):\n            if i_src != i_dst:\n                pool[i_dst] = mix(pool[i_dst], hash(pool[i_src]))\n\n    hash_const_B = INIT_B\n    state = []\n    for i_dst in range(4):\n        data_val = pool[i_dst]\n        data_val = (data_val ^ hash_const_B) & MASK32\n        hash_const_B = (hash_const_B * MULT_B) & MASK32\n        data_val = (data_val * hash_const_B) & MASK32\n        data_val = (data_val ^ (data_val >> XSHIFT)) & MASK32\n        state.append(data_val)\n    return state\n",
+    "numpy_seed_function_source_sha256": "69eaa9f4b69a77fe4d9b4674ca7cf384247ba9b6464879a10160255f9e280e09",
+    "worker_loop_source_sha256": "72706edae0073144f25e6ffa3ef1425480da75a5a11e43223912e43f61dd7502",
+    "worker_module_path": "torch/utils/data/_utils/worker.py",
+    "worker_module_sha256": "31622f5d8aa5c6bca8850476de9c053e7c798226789964069fb20da8d490176c",
+    "dataloader_module_path": "torch/utils/data/dataloader.py",
+    "dataloader_module_sha256": "d66f3930b36b5223e0a158cfb19d4654326c94b020771e42a952d9a9638deb72"
+  },
+  "original_archive_sha256": "75ec6600a7126d77be29e66c3f0e18d67a49d52ecce7a366fa12bafd90258d5a",
+  "metadata_only_publication_transform": true,
+  "all_rng_tensor_values_unchanged": true
+}

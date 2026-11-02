@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "model_name": "MoTrend",
+  "correct": 283,
+  "total": 287,
+  "accuracy_percent": 98.60627177700349,
+  "alpha": 0.5,
+  "checkpoint_epoch": 30,
+  "checkpoint_sha256": "9c3764cb4e5993f441c6053b984b4e84e37f39b853afcbd050f7dfed39c44ac9",
+  "exact_replay": {
+    "passed": true,
+    "correct": 283,
+    "total": 287,
+    "exact_window_arrays": 5356,
+    "exact_video_rows": 287,
+    "input_sha256": "976c42e36dac5074468044f087cb13a46032035f49834b323e4cdb7e90f56d56",
+    "output_sha256": "730bf5bcdce5375f079243f475994f2016cc84ba177cf1a8bb04ec77a26bbac9"
+  },
+  "input_sha256": "976c42e36dac5074468044f087cb13a46032035f49834b323e4cdb7e90f56d56",
+  "output_sha256": "730bf5bcdce5375f079243f475994f2016cc84ba177cf1a8bb04ec77a26bbac9",
+  "rng_archive_sha256": "3cc81c045f0cfe2932d3971c03b163bc01807b7e0a69fe5da843ef117b9db167",
+  "srr_statistics": {
+    "calls": 383,
+    "raw_nonzero_batches": 383,
+    "maximum_raw_abs": 0.0167431328445673
+  },
+  "trained_parameters_unchanged": true,
+  "single_model": true,
+  "ensemble": false,
+  "no_training": true,
+  "sampling_search": false,
+  "wall_seconds": 29.616000413894653
+}

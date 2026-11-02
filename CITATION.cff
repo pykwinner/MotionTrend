@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using this software. Paper metadata will be added when available."
+title: "MotionTrend: reproducible MoTrend implementation for MSR-Action3D"
+type: software
+version: 0.1.0
+date-released: 2026-11-02
+authors:
+  - name: "MotionTrend contributors"
+repository-code: "https://github.com/pykwinner/MotionTrend"
+license: MIT

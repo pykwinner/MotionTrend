@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests": 50,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "torch": "2.5.1+cpu",
+  "numpy": "1.26.4",
+  "python": "3.12.7",
+  "native_cuda_accuracy_test": false,
+  "scope": "Model, native binding selection, training policy, data/checkpoint integrity and restart logic"
+}
