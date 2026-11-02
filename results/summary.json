@@ -212,8 +212,10 @@
     },
     "scope": "Read-only evaluation analysis relative to this run selected frozen parent; no TEST IDs/labels influence training or policy"
   },
-  "current_publication_code_gpu_replay_executed": false,
+  "current_publication_code_gpu_replay_executed": true,
   "checkpoint_sha256": "9c3764cb4e5993f441c6053b984b4e84e37f39b853afcbd050f7dfed39c44ac9",
   "initialization_sha256": "6febe65dfd2bb23c04035af5e2b56f3385865cbd3844dbafe689be4e0e9cf056",
-  "rng_sha256": "3cc81c045f0cfe2932d3971c03b163bc01807b7e0a69fe5da843ef117b9db167"
+  "rng_sha256": "3cc81c045f0cfe2932d3971c03b163bc01807b7e0a69fe5da843ef117b9db167",
+  "publication_native_validation": "results/validation/native_4090/VALIDATION.json",
+  "publication_validated_commit": "516f898005538956fc0e97260468fe2c7ac79bdc"
 }

@@ -108,6 +108,8 @@ model.eval()
 
 See [architecture notes](docs/ARCHITECTURE.md), [result provenance](docs/PROTOCOL.md), and [validation records](docs/VALIDATION.md). Historical state-dictionary names are retained for exact checkpoint loading.
 
+The reorganized release was replayed on an RTX 4090 D: all 5,356 window probabilities and all 287 video results matched the reference exactly, with 283 correct. The native gradient preflight also passed and restored all temporary updates. Receipts are in [results/validation/native_4090](results/validation/native_4090).
+
 ## Tests
 
 ```bash

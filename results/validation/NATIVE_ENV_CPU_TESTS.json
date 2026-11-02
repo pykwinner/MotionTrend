@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "tests": 50,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "python": "3.10.8",
+  "torch": "2.1.2+cu118",
+  "numpy": "1.26.4",
+  "platform": "Linux x86_64",
+  "original_test_report_sha256": "6672318b977126758747032183f873a3e704023cb3a11fcea240c39cd8e73eb5",
+  "scope": "CPU test suite executed in the original Linux/PyTorch runtime; separate from the native CUDA replay.",
+  "native_cuda_accuracy_test": false
+}

@@ -52,3 +52,5 @@ CUDA_VISIBLE_DEVICES=0 python -B train.py \
 准确复现入口锁定完整三模块。关闭开关后是新的模型结构，需要另行训练，不能直接沿用283的权重和精度。单独用模型API加载完整权重后，应调用`model.set_phase(30)`和`model.set_srr_scale(0.5)`，然后`model.eval()`。
 
 详细内容见[英文首页](README.md)、[训练与评价口径](docs/PROTOCOL.md)、[安装依赖](docs/INSTALL.md)及[验证记录](docs/VALIDATION.md)。
+
+整理后的公开工程已在RTX4090D原生环境重新重放，得到283/287；5356个窗口概率及287条视频结果逐项完全一致。原生梯度预检通过，测试更新均已恢复。50项CPU测试在本地和原Linux/PyTorch环境均通过，票据位于`results/validation/`。

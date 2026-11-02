@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "retained_optimizer_steps": 0,
+  "temporary_parent_updates": 1,
+  "temporary_srr_updates": 2,
+  "restored_all_weights_rng": true,
+  "records": [
+    {
+      "step": 0,
+      "output_gradient": 0.10240995138883591,
+      "hidden_gradient": 0.0
+    },
+    {
+      "step": 1,
+      "output_gradient": 0.10240646451711655,
+      "hidden_gradient": 0.0005661654868163168
+    }
+  ]
+}
