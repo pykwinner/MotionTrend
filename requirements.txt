@@ -1,0 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.1.2+cu118
+numpy==1.26.4
+einops==0.8.2
+# PyTorch 2.1.2 extension builds import pkg_resources.packaging.
+setuptools==69.5.1
+ninja

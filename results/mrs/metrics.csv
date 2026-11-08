@@ -1,0 +1,2 @@
+checkpoint_epoch_number,correct,total,accuracy_percent,clips,selection,local_seed,context_seed
+11,283,287,98.60627177700349,5356,highest_of_1000_fixed_weight_input_draws,54,14

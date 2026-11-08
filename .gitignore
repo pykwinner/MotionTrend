@@ -1,0 +1,42 @@
+# Python and local development
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
+# Generated CUDA/build artifacts
+*.so
+*.pyd
+*.dll
+*.o
+*.obj
+build/
+dist/
+*.egg-info/
+# Runtime artifacts and uncurated experiment exports
+runs/
+evaluation/
+*.log
+*.jsonl
+results/synthia_source_records/
+*.pth
+*.pt
+*.ckpt
+!results/mrs/best.pth
+# Raw datasets and archives; keep the small class-frequency metadata
+*.npz
+*.npy
+!datasets/synthia_metadata/labelweights.npz
+*.zip
+*.tar
+*.tar.gz

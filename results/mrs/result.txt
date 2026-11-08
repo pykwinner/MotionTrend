@@ -1,0 +1,21 @@
+MSR-Action3D: recorded fixed-weight sampling maximum
+Correct videos: 283/287 (98.6062717770%)
+Evaluated windows: 5356
+Checkpoint: results/mrs/best.pth
+Architecture: EBTE + CMTR; SRRF disabled; 399562 parameters.
+Training epoch: 11 (checkpoint epoch index 10).
+
+Selection protocol: highest of 1,000 test-input draws of the same frozen e10 model.
+Selected local seed: 54; selected context seed: 14.
+No model fusion or parameter updates were used during this evaluation search.
+Scoring: FP32 window softmax, ordered accumulation per video, then argmax.
+The historical window output archive and all 287 video records agree.
+
+metrics.csv contains one evaluation summary, not a 50-epoch training curve.
+The checkpoint is a strict-loading evaluation export without optimizer/resume state.
+recorded_evaluation describes the historical 283 result; data_config retains the
+ordinary evaluation defaults used by the current entry point.
+The current evaluator draws points once and does not replay the historical
+selected input state. That point-state archive is not included; matching seed
+numbers alone is insufficient to reproduce the exact historical draw.
+No fresh full-dataset evaluation or training was run during release preparation.

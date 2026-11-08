@@ -1,0 +1,47 @@
+{
+  "data": {
+    "root": null,
+    "clip_len": 24,
+    "num_points": 2048,
+    "context_frames": 32,
+    "context_points": 256,
+    "context_seed": 0,
+    "expected_videos": 287
+  },
+  "model": {
+    "use_ebte": true,
+    "use_cmtr": true,
+    "use_srrf": false,
+    "seed": 0,
+    "num_classes": 20,
+    "radius": 0.3,
+    "nsamples": 32,
+    "spatial_stride": 32,
+    "temporal_kernel_size": 3,
+    "temporal_stride": 2,
+    "dim": 80,
+    "depth": 5,
+    "heads": 2,
+    "dim_head": 40,
+    "mlp_dim": 160,
+    "dropout1": 0.0,
+    "dropout2": 0.0,
+    "rho": 0.02,
+    "epsilon": 1e-6,
+    "srrf_scale": 1.0
+  },
+  "train": {
+    "seed": 0,
+    "epochs": 50,
+    "batch_size": 14,
+    "workers": 10,
+    "lr": 0.01,
+    "momentum": 0.9,
+    "weight_decay": 0.0001,
+    "warmup_epochs": 10,
+    "warmup_factor": 0.00001,
+    "lr_milestones": [20, 30],
+    "lr_gamma": 0.1,
+    "print_freq": 100
+  }
+}

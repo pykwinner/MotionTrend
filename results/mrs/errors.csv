@@ -1,0 +1,5 @@
+﻿video,video_index,true_action,predicted_action,correct,windows,mean_predicted_probability
+a04_s06_e01_sdepth.npz,45,A04,A07,0,7,0.7403274263654437
+a04_s06_e02_sdepth.npz,46,A04,A07,0,29,0.4047949231904128
+a06_s09_e03_sdepth.npz,84,A06,A04,0,14,0.9383887563432965
+a15_s06_e03_sdepth.npz,209,A15,A19,0,17,0.8727633532355813
